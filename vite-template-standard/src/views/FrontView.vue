@@ -1,3 +1,11 @@
 <template>
-    <router-view></router-view>
+    <h2>這是前台</h2>
+    <nav>
+        <RouterLink to="/">首頁</RouterLink> |
+        <RouterLink to="/about">關於我們</RouterLink> |
+        <RouterLink to="/product">產品列表</RouterLink> |
+        <RouterLink to="/cart">購物車</RouterLink> |
+        <RouterLink to="/admin">後台</RouterLink>
+    </nav>
+    <RouterView></RouterView>
 </template>

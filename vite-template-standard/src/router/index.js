@@ -6,14 +6,30 @@ const routes = [
     component: () => import('../views/FrontView.vue'),
     children: [
       {
-        path: '',
-        name: 'Home',
-        component: () => import('../views/HomeView.vue')
+        path: 'about',
+        component: () => import('../views/AboutView.vue')
       },
       {
-        path: '/about',
-        name: 'About',
-        component: () => import('../views/AboutView.vue')
+        path: 'product',
+        component: () => import('../views/ProductView.vue')
+      },
+      {
+        path: 'cart',
+        component: () => import('../views/CartView.vue')
+      }
+    ]
+  },
+  {
+    path: '/admin',
+    component: () => import('../views/dashboard/DashboardView.vue'),
+    children: [
+      {
+        path: 'cart',
+        component: () => import('../views/dashboard/CartView.vue')
+      },
+      {
+        path: 'order',
+        component: () => import('../views/dashboard/OrderView.vue')
       }
     ]
   }
