@@ -6,6 +6,6 @@
      -建立連結V
 - 前台路由建置V
 - 後臺路由建置V
-- 安裝 bootstrap、axios
+- 安裝 bootstrap、axiosV
 - 登入頁面
 - 後臺登入驗證
