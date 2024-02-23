@@ -65,7 +65,7 @@ export default {
           const { token, expired } = res.data // 解構
           console.log(token, expired)
           // window.location = 'products.html'
-          this.$router.push('./product')
+          this.$router.push('/admin/product')
           // document.cookie = `someCookieName = true; expires = Fri,31 Dec 9999 23:59 GMT;`;
           document.cookie = `hexToken= ${token}; expires=${new Date(
             expired

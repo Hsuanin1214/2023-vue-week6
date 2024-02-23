@@ -108,3 +108,15 @@ npm run deploy
 ```
 
 （請記得將 `.env` 中的 `REPOSITORY_NAME` 改為你的專案名稱即可。）
+
+
+- 建立前後台主要版型 V
+    -巢狀路由 V
+     -建立.vue檔 V
+     -建立路由 V
+     -建立連結 V
+- 前台路由建置 V
+- 後臺路由建置 V
+- 安裝 bootstrap、axios V
+- 登入頁面 V
+- 後臺登入驗證 V
